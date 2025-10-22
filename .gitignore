@@ -1,0 +1,20 @@
+﻿# Exclure tout ce qui est en dehors du projet SNAConfig
+../../*
+../../../*
+
+# Exclure les fichiers Visual Studio
+.vs/
+*.suo
+*.user
+bin/
+obj/
+*.vsidx
+*.cache
+
+# Garder seulement les fichiers source essentiels
+!SNAConfig.sln
+!SNAConfig/Form1.Designer.cs
+!SNAConfig/Form1.cs
+!SNAConfig/Form1.resx
+!SNAConfig/Program.cs
+!SNAConfig/SNAConfig.csproj
